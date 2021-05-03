@@ -7,6 +7,7 @@ Murruni Pablo <murruni@gmail.com>
 + Proyecto backend en nodejs
 + Ejecuta un servidor con api rest
 + Persiste en mysql
++ Utiliza variables de entorno con dotenv
 ## Aplicación
 Ni idea
 
@@ -14,6 +15,11 @@ Ni idea
 ## Requiere
 * Acceso a base mysql
 * Tener instalado: git npm
+* Configurar el archivo .env con los siguientes parámetros:
+    - PORT=3001 ```(por defecto: 3000)```
+    - DB_HOST=url ```(por defecto: localhost)```
+    - DB_USER=user ```(por defecto: root)```
+    - DB_PASS=passwd ```(por defecto: '')```
 ## Pasos
 - Clonar el proyecto al equipo:
     - git clone https:&#8203;//github.com/murruni/PWA-2021.git nombre_carpeta
