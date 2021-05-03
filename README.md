@@ -16,7 +16,7 @@ Ni idea
 * Tener instalado: git npm
 ## Pasos
 - Clonar el proyecto al equipo:
-    - git clone `https://github.com/murruni/PWA-2021.git` nombre_carpeta
+    - git clone https:&#8203;//github.com/murruni/PWA-2021.git nombre_carpeta
 -  Descargar dependencias node:
     - cd nombre_carpeta
     - npm install
@@ -32,7 +32,7 @@ El script de desarrollo diferencia el sistema operativo host con el paquete npm 
 # Estructura del proyecto
 ## Carpetas y archivos
 - */bin*: punto de acceso/ejecutables de la app. 
-    - */bin/`www.js`*: carga el servidor y ejecuta el archivo app.js
+    - */bin/www&#8203;.js*: carga el servidor y ejecuta el archivo app.js
 - */public*: recursos accesibles que no requieren autorización. Incluye el index.html base.
     - *public/images*: imágenes
     - *public/javascripts*: archivos de funciones javascript frontend.
